@@ -4,9 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
+
 </head>
+
 <body>
+<div class="container">
+
+<p class= 'emoji' id="balloon">
+🎈 
+</p>
+
+  
+</div>   
+
+<script>
+// var containing ballon pic from dom
+let balloonPic  = document.getElementById('balloon');
+
+ //console.log(ballonPic)
+
+// event listener keyup and event function
+document.addEventListener("keyup", event => {
+// if press i, ballon is enflated
+
+    if (event.key == 'i'){
+        balloonPic.style.fontSize = '40px';
+       // ballonPic.style.width = '90px';
+
+        // need to decrease the ballon size
+
+    }else if(event.key == 'd'){
+        balloonPic.style.fontSize = '20px';
     
+    }
+});
+
+
+ //document.querySelector('.ballon').style.height =  '40px';
+//document.querySelector('.ballon').style.width = '40px';
+
+//document.querySelector('.ballon').style.height =  '20px';
+//document.querySelector('.ballon').style.width = '20px';
+
+// adding event listener with keyup and func
+//x.addEventListener("keyup", function (){
+    // get the key i
+
+
+    //enflate 10px when keyup i
+    //if (event.code == 'KeyI'){
+    
+       // document.querySelector('.ballon').style.height= '100px';
+   // }
+
+
+  // <div class="middle">
+ //    <img class="ballon" src="ballon.PNG" id="picture1">
+  //   </div>
+//})
+
+</script>
 </body>
 </html>

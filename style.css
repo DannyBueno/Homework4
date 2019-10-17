@@ -1,0 +1,35 @@
+
+/*
+.container {
+    height: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+*/
+
+/* .middle {
+  display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+*/
+
+/* .ballon {
+    width: 30px;
+    height: 30px;
+    
+}
+*/
+
+.emoji {
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
